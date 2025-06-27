@@ -21,6 +21,8 @@ body {
     line-height: 1.5;
     letter-spacing: .015em;
     color: #454545;
+    background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    background-repeat: repeat;
 }
 
  a{
@@ -337,7 +339,7 @@ ul.nav-bar_links {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
-    margin-bottom: 100px;
+    margin: 0 auto 100px;
 }
 
 .detail-card {
