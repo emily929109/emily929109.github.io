@@ -225,7 +225,7 @@ ul.nav-bar_links {
   }
 
   .nav-bar-mask{
-    display: none;
+    display: none!important;
   }
 }
 
