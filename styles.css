@@ -223,6 +223,10 @@ ul.nav-bar_links {
   .nav-bar_dropdown-menu{
     top:0
   }
+
+  .nav-bar-mask{
+    display: none;
+  }
 }
 
 
