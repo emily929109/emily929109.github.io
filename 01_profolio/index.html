@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/7c6bbc6b90.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--==========導覽列==========-->
+    <div class="nav-bar-mask"></div>
+    <section id="nav" class="nav">
+        <div class="nav-bar-container">
+            <div class="nav-bar_logo">
+                <a href="#">
+                    <img src="img/logo3.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav-bar_menu">
+                <button class="nav-bar_toggle">
+                    <div class="icon"></div>
+                    MENU
+                </button>
+                <ul class="nav-bar_links">
+                    <li>
+                        <button class="nav-bar_link nav-bar_dropdown-title">
+                            作品
+                            <span class="dropdown-icon"></span>
+                        </button>
+                        <div class="nav-bar_dropdown-menu">
+                            <div>
+                                <div class="nav-bar_dropdown-subitem">
+                                    <img src="img/logo.png">
+                                    <a href="#1" class="nav-bar_dropdown-link">切版作品</a>
+                                </div>
+                                <div class="nav-bar_dropdown-subitem">
+                                    <img src="img/logo.png">
+                                    <a href="#2" class="nav-bar_dropdown-link">自學作品</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <a href="#" class="nav-bar_link">關於</a>
+                    </li> -->
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+<!--==========banner==========-->
+    <section class="banner">
+        <div class="carousel">
+            <!--<button class="carousel-button prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="carousel-button next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>-->
+            <ul>
+                <li class="slide" data-active>
+                    <img class="slide-img" src="img/6.jpg">
+                </li>
+                <!--<li class="slide">
+                    <img src="img/banner.png">
+                </li>
+                <li class="slide">
+                    <img src="img/banner.png">
+                </li>-->
+            </ul>
+        </div>
+    </section>
+
+
+
+
+<!--==========瀑布式作品集==========-->
+<!--1-->
+<div class="title"><span>切</span>版作品</div>
+<div class="list-card_grid" id="1">
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/21.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">01｜桑心餐飲</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://emoer.co/" target="_blank"></a>
+    </div>
+
+<!--2-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/19.jpg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">02｜百世達旅遊</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop7882.noon2go.com/" target="_blank"></a>
+    </div>
+
+<!--3-->    
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/18.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">03｜2025野柳石光夜訪女王</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://yehliu-nighttours.tw/" target="_blank"></a>
+    </div>
+
+<!--4-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/3.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">04｜馬耀蜜蜂咖啡生態園區</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop58987.noon360.com/" target="_blank"></a>
+    </div>
+
+<!--5-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/8.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">05｜日本品牌生活網</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://noon360.com/mainssl/modules/MySpace/index.php?sn=jp&pg=ZC9363772" target="_blank"></a>
+    </div>
+
+<!--6-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/20.jpg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">06｜福爾摩沙北海岸藝術季</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://w62.noonspace.com/mainssl/modules/MySpace/index.php?sn=north&pg=ZC3655922" target="_blank"></a>
+    </div>
+
+<!--7-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/17.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">07｜天光雜貨店</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://tiengong.com.tw/" target="_blank"></a>
+    </div>
+
+<!--8-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/15.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">08｜定國自行車</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop6322.noon360.com/" target="_blank"></a>
+    </div>
+
+<!--9-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/14.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">09｜上發興業有限公司</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop1934.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--10-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/12.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">10｜Wendy注音補習班</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://noon360.com/mainssl/modules/MySpace/index.php?sn=wendy&pg=ZC9524339" target="_blank"></a>
+    </div>
+
+    <!--11-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/11.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">11｜NOONPOS</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://noonpos.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--12-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/16.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">12｜尚鮮集冷凍海鮮</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop02748.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--13-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/10.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">13｜銀河繫Wehola</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://wehola.com/" target="_blank"></a>
+    </div>
+
+    <!--14-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/9.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">14｜Noon企業數位學院</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://noon360.com/mainssl/modules/MySpace/index.php?sn=support&pg=ZC9383947" target="_blank"></a>
+    </div>
+
+    <!--15-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/4.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">15｜日本洄瀾生活節入口網</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://noon360.com/mainssl/modules/MySpace/index.php?sn=jp&pg=ZC9096338" target="_blank"></a>
+    </div>
+
+    <!--16-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/1.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">16｜世界郵輪聯盟</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://noon2go.com/mainssl/modules/MySpace/index.php?sn=cruisealliance&pg=ZC961456" target="_blank"></a>
+    </div>
+
+    <!--17-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/6.jpeg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">17｜馬力美術室</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop6447.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--18-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/13.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">18｜饗芬芳餐館</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop6106.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--19-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/7.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">19｜萬花筒商行</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop9251.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--20-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/5.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">20｜家政婦商行入口網</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop5899.noon360.com/" target="_blank"></a>
+    </div>
+
+    <!--21-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/card-1.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">21｜奴才的點心</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="https://shop5829.noon360.com/" target="_blank"></a>
+    </div>
+
+    
+</div>
+
+
+
+
+
+<!--==========自學作品==========-->
+<div class="title"><span>自</span>學作品</div>
+<div class="list-card_grid list-card-self" id="2">
+    <!--1-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/a.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">01｜Food Recipe App</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="http://foodrecipeapp2024.06.s3-website-ap-northeast-1.amazonaws.com/" target="_blank"></a>
+    </div>
+
+    <!--2-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/b.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">02｜DatePicker & TodoList</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="http://test20240519.s3-website-ap-northeast-1.amazonaws.com/" target="_blank"></a>
+    </div>
+
+        <!--3-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/c.png">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">03｜PHP Calculator</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="#" target="_blank"></a>
+    </div>
+
+        <!--4-->
+    <div class="detail-card">
+        <div class="detail-card-img">
+            <img src="img/works/d.jpg">
+        </div>
+        <div class="detail-card-info">
+            <h3 class="detail-card-title">04｜Login Form</h3>
+            <div class="detail-card-details">
+             View details 
+             <button class="arrow-button">
+                <span class="arrow"></span>
+             </button>
+            </div>
+        </div>
+        <a class="detail-card-link" href="http://login20240709.s3-website-ap-northeast-1.amazonaws.com/" target="_blank"></a>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
